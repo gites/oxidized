@@ -1,6 +1,6 @@
 module Oxidized
-  VERSION = '0.24.2'
-  VERSION_FULL = '0.24.2'
+  VERSION = '0.24.3'
+  VERSION_FULL = '0.24.3'
   def self.version_set
     version_full = %x(git describe --tags).chop rescue ""
     version      = %x(git describe --tags --abbrev=0).chop rescue ""
